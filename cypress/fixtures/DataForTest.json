@@ -1,0 +1,45 @@
+{
+    "User_Data":
+    {
+        "UserName":"Name Test1",
+        "Last_Name": "Last Name Test 1",
+        "Male": "M",
+        "Female":"F",
+        "birthday":"1985-01-01"
+    },
+    "User_Data2":
+    {
+        "UserName":"Name Test 2",
+        "Last_Name": "Last Name Test 2",
+        "Male": "M",
+        "Female":"F",
+        "birthday":"1987-11-11"
+    },
+    "Blank_Data":
+    {
+        "Generic_User_ID": "",
+        "UserName":"",
+        "Last_Name": "",
+        "Male": "",
+        "Female":"",
+        "birthday":""
+    },
+    "Rest_Methods":
+    {
+        "GET":"GET",
+        "POST":"POST",
+        "PUT":"PUT",
+        "DELETE":"DELETE",
+        "PATCH":"PATCH"
+
+    },
+    "Wrong_Data":
+    {
+        "StringParameter":"asdf"
+    },
+    "Status_Code":
+    {
+        "Status_true": true,
+        "Status_false": false
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "User_Data_Email":
+    {
+        "User_Email":"test@mail.com",
+        "strFirstEmailSection":"test", 
+        "strMiddleEmailSection":"gmail", 
+        "strLastEmailSection":".es"
+    },
+    "User_Data_Personal_Info":
+    {
+        "customer_firstname":"First Name test",
+        "customer_lastname":"Last Name test",
+        "email":"",
+        "passwd":"123abc321",
+        "day":"1",
+        "month":"3",
+        "year":"1985",
+        "newsletter":"",
+        "optin":"",
+        "firstnameaddress":"USA",
+        "lastnameaddress":"USA State",
+        "company":"3 Patitos",
+        "address1":"ABC address1",
+        "inlineinfos":"123",
+        "address2":"ABC address1",
+        "city":"NY",
+        "id_state":"2",
+        "postcode":"91854",
+        "id_country":"21",
+        "other":"123 test",
+        "phone":"852963710",
+        "phone_mobile":"147159357",
+        "alias":"7896541230"
+    }
+}    
