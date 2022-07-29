@@ -1,12 +1,12 @@
-name QA Code Challenge
-on [push, pull_request]
-jobs
-  Code-Challenge
-    runs-on ubuntu-latest
-    steps
-      - name GetRepo
-        uses actionscheckout@v3
-      - name InstallCypressNodeandRun
-        uses cypress-iogithub-action@v4
-        with
-          command npm run FullRegression
+name: QA Code Challenge
+on: [push, pull_request]
+jobs:
+  Code-Challenge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: GetRepo
+        uses: actions/checkout@v3
+      - name: InstallCypressNodeandRun
+        uses: cypress-io/github-action@v4
+        with:
+          command: npm run FullRegression
